@@ -1,0 +1,79 @@
+body
+{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.logoCompañia
+{
+  min-width: 100px;
+  max-width: 140px;
+}
+
+#principal
+{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.container #navbarSupportedContent #face
+{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+
+}
+
+.container #navbarSupportedContent #insta
+{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+
+}
+
+.container #navbarSupportedContent #twit
+{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+#carouselExampleIndicators
+{
+  height: 570px;
+  width: 1000px;
+  margin: auto;
+}
+
+#carouselExampleIndicators .carousel-inner
+{
+  border-radius: 20px;
+}
+
+#carouselExampleIndicators .carousel-inner h3
+{
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+}
+
+#BANNERS_MKT .home-box-mb, #PAYMENTS .home-box-mb, #LOYALTY .home-box-mb, .home-box-mb.home-ui-searchbox-container {
+    margin-bottom: 56px;
+}
+
+.home-ui-searchbox-container {
+    padding: 16px 0;
+    border-top: solid 1px #cccccc;
+    background-size: 68%, auto;
+}
+
+.home-ui-searchbox-container {
+    padding: 16px 0;
+    border-top: solid 1px #cccccc;
+    background-size: 68%, auto;
+}
+.home-ui-searchbox-container {
+    padding: 12px 10px;
+    background-position: bottom, top;
+    background-image: linear-gradient(0, #DDD5F5 0%, #DDD5F5 100%);
+}

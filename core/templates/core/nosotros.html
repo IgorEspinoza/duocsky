@@ -1,0 +1,70 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block css %}
+
+<link rel="stylesheet" href="{% static 'core/css/estilos3.css' %}">
+
+{% endblock %}
+
+{% block contenido %}
+
+<section id="team" class="pb-5">
+    <div class="container">
+      <h5 class="section-title h1">Equipo DUOC SKY</h5>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4" data-aos="zoom-in-up">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="{% static 'core/imagenes/itachi.png' %}" alt="card image"></p>
+                    <h4 class="card-title">Itachi</h4>
+                    <p class="card-text">Gerente de felicidad</p>
+                    <a href="https://cl.linkedin.com/" class="btn btn-primary btn-sm"><i class="fa fa-plus">LinkedIn</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4" data-aos="zoom-in-up">
+          <div class="image-flip">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="{% static 'core/imagenes/nete.png' %}" alt="card image"></p>
+                    <h4 class="card-title">Netero</h4>
+                    <p class="card-text">Desarrollador ULTRA STACK SUPER SAYAYIN</p>
+                    <a href="https://cl.linkedin.com/" class="btn btn-primary btn-sm"><i class="fa fa-plus">LinkedIn</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4" data-aos="zoom-in-up">
+          <div class="image-flip">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="{% static 'core/imagenes/luffy.png' %}" alt="card image"></p>
+                    <h4 class="card-title">Luffy</h4>
+                    <p class="card-text">Amargado del Grupo</p>
+                    <a href="https://cl.linkedin.com/" class="btn btn-primary btn-sm"><i class="fa fa-plus">LinkedIn</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+{% endblock %}

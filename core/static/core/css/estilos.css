@@ -1,0 +1,100 @@
+/**/
+body
+{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.logoCompañia
+{
+  min-width: 100px;
+  max-width: 140px;
+}
+
+#principal
+{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.container #navbarSupportedContent #face
+{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+
+}
+
+.container #navbarSupportedContent #insta
+{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+
+}
+
+.container #navbarSupportedContent #twit
+{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+#carouselExampleIndicators
+{
+  height: 570px;
+  width: 1000px;
+  margin: auto;
+}
+
+#carouselExampleIndicators .carousel-inner
+{
+  border-radius: 20px;
+}
+
+#carouselExampleIndicators .carousel-inner h3
+{
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+}
+
+
+.Convenios
+{
+  background: #f2f2f2;
+}
+.Convenios img
+{
+  height: 100px;
+  margin-left: 400px;;
+}
+
+.col-sm
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+.col-sm
+{
+    width: 29%;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    transition: 0.1s;
+}
+
+.col-sm:hover
+{
+box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+}
+
+.col-sm>a:hover
+{
+    color: #1FDE82;
+    transition: color .5s;
+}

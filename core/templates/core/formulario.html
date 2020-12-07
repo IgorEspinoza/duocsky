@@ -1,0 +1,52 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block css %}
+
+<link rel="stylesheet" href="{% static 'core/css/estilos2.css' %}">
+
+{% endblock %}
+
+{% block contenido %}
+
+<nav>
+  <div class="formulario">
+    <form>
+      <div class="form-group " data-aos="zoom-in-up">
+        <label for="nombre">Nombre:</label>
+        <input class="form-control" id="nombre" type="text" name="nombre" placeholder="fabian" />
+      </div>
+      <div class="form-group " data-aos="zoom-in-up">
+        <label for="nombre">Apellido:</label>
+        <input class="form-control" id="apellido" type="text" name="apellido" placeholder="toro" />
+      </div>
+      <div class="form-group " data-aos="zoom-in-up">
+        <label for="nombre">Telefono:</label>
+        <input class="form-control" id="telefono" type="text" name="telefono" placeholder="+569..." />
+      </div>
+      <div class="form-group " data-aos="zoom-in-up">
+        <label for="email">Email:</label>
+        <input class="form-control" id="email" type="text" name="email" placeholder="example@gmail.com" />
+      </div>
+      <div class="form-group mx-sm-3 " data-aos="zoom-in-up">
+        <label for="inputPass">Password</label>
+        <input type="password" class="form-control" id="inputPass" placeholder="Pass">
+      </div>
+
+      <div class="form-group" data-aos="zoom-in-up">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Recordarme
+          </label>
+        </div>
+      </div>
+      <div class="card text-center">
+        <a href="#" id="btn-confirmar" class="btn btn-primary" data-aos="zoom-in-up">Confirmar</a>
+      </div>
+
+    </form>
+  </div>
+</nav>
+
+{% endblock %}
